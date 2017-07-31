@@ -1,0 +1,64 @@
+<div class="row wrapper border-bottom white-bg page-heading">
+    <div class="col-lg-10">
+        <h2>{{pageTitle}}</h2>
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">{{rootTitle}}</a>
+            </li>
+            <li>
+                <a>{{moduleTitle}}</a>
+            </li>
+            <li class="active">
+                <strong>{{pageTitle}}</strong>
+            </li>
+        </ol>
+    </div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight ecommerce">
+
+    <div class="ibox-content m-b-sm border-bottom">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label class="control-label" for="name">产品名</label>
+                    <input for="productList" type="text" id="name" name="name" value="" placeholder="输入产品名称" class="form-control" ng-model="name">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label class="control-label" for="type">产品类型</label>
+                    <input for="productList" type="text" id="type" name="type" value="" placeholder="输入产品类型" class="form-control" ng-model="type">
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <label class="control-label" for="dir">产品目录</label>
+                    <agile-input-ztree  for="productList" src="productDir" type="text" inputname="dir" value="" placeholder="输入产品目录" id="dir" class="form-control"></agile-input-ztree>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="form-group">
+                    <label class="control-label" for="state">状态</label>
+                    <select for="productList" chosen disable-search="true" data-placeholder="选择状态" no-results-text="'没找到结果 : '" id="state" name="state" class="chosen-select form-control"  tabindex="4"  ng-options="state.key as state.value for state in productState" ng-model="state"><option value=""></option></select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>产品列表</h5>
+                    <div ibox-tools></div>
+                </div>
+                <div class="ibox-content">
+                    {{ datatableCtrl.selected |json }}
+                    <!--responsive 折叠行 checkbox复选框-->
+                    <agile-datatable id="productList" src="productList" checkbox topbuttons='[{"text":"复制","extend":"copy"},{"text":"csv","extend":"csv"},{"text":"excel","extend":"excel"},{"text":"pdf","extend":"pdf"},{"text":"打印","extend":"print"},{"text":"上架","action":"productQueryCtrl.editProduct"}]' buttons='[{"title":"修改","class":"btn-warning","stateColumn":"state","stateValue":"product","active":"productQueryCtrl.editProduct"},{"title":"详情","class":"btn-primary","active":"productQueryCtrl.detailProduct"},{"title":"删除","class":"btn-danger","active":"productQueryCtrl.deleteProduct"}]' columns='[{"title":"编号","value":"id"},{"title":"名字","value":"name"},{"title":"状态","value":"state"},{"title":"状态","value":"state","class":"none"}]'></agile-datatable>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,80 @@
+<!--
+*
+* Agile - 框架
+* Version 1.0
+*
+-->
+
+<!DOCTYPE html>
+<html ng-app="agile-view">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+
+    <!-- 页面的标题在pageTitle指定中设置 -->
+    <title page-title></title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 字体样式文件 -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Agile框架的主要样式文件 -->
+    <link href="css/animate.css" rel="stylesheet">
+    <link id="loadBefore" href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<!-- 控制器语法 -->
+<!-- Agile在不同页面中所使用的主控制器 -->
+<body ng-controller="MainCtrl as main" class="{{$state.current.data.specialClass}}" landing-scrollspy id="page-top">
+
+<!-- 主页面  -->
+<div ui-view></div>
+
+<!-- jQuery 和 Bootstrap 的脚本文件-->
+<script src="js/jquery/jquery-2.1.1.min.js"></script>
+<script src="js/plugins/jquery-ui/jquery-ui.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+
+<!-- MetsiMenu属于bootstrap风格的jQuery菜单插件，允许用户创建类似手风琴效果的可折叠菜单，允许自动折叠效果。 -->
+<script src="js/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+<!-- SlimScroll jQuery滚动条插件，把任何div元素包裹的内容区加上具有好的滚动条。slimscroll不占用任何视觉空间，它只出现在一个用户启动的鼠标。用户可以拖动滚动条或使用鼠标滚轮改变滚动值 -->
+<script src="js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- pace 页面进度条插件，页面就会自动监测你的请求（包括Ajax请求），在事件循环滞后，会在页面记录加载的状态以及进度情况。此插件的兼容性很好，可以兼容IE8以上的所有主流插件，而且其强大之处在于，你还可以引入加载进度条的主题样式，你可以选择任意颜色和多种动画效果（例如简约、闪光灯，MAC OSX，左侧填充，顶部填充，计数器和弹跳等等动画效果），如果你擅长修改css动画，那你就可以做出无限种可能性的动画，为你的网站增添个性化特色！ -->
+<script src="js/plugins/pace/pace.min.js"></script>
+
+<!-- 自定义和插件使用脚本 -->
+<script src="js/agile.js"></script>
+
+<!-- Angular 主脚本-->
+<script src="js/angular/angular.min.js"></script>
+<script src="js/angular/angular-cookies.min.js"></script>
+<script src="js/angular/angular-sanitize.js"></script>
+<script src="js/plugins/oclazyload/dist/ocLazyLoad.min.js"></script>
+<script src="js/angular-translate/angular-translate.min.js"></script>
+<script src="js/ui-router/angular-ui-router.min.js"></script>
+<script src="js/bootstrap/ui-bootstrap-tpls-1.1.2.min.js"></script>
+<script src="js/plugins/angular-idle/angular-idle.js"></script>
+<!-- Anglar 工程脚本 -->
+<script src="js/app.js"></script>
+<script src="js/router.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/directives.js"></script>
+<!--工程框架配置文件-->
+<script src="js/global.js"></script>
+<script src="js/globalService.js"></script>
+<script src="js/globalControllers.js"></script>
+<!--商品的控制器-->
+<script src="js/src/commodityControllers.js"></script>
+<!--产品的控制器-->
+<script src="js/src/productControllers.js"></script>
+</body>
+</html>

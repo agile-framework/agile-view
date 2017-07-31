@@ -1,0 +1,27 @@
+{
+  "result": {
+    "header": {
+      "appName": "commodity-passport-01",
+      "errorCode": "00000",
+      "errorMsg": "服务执行成功！",
+      "success": true,
+      "url": "https://134.78.9.67:13443/passport/login?deal-type=getsession&mt=1&res=json",
+      "referer": null
+    },
+    "dataSet": {
+      "productState": [
+        {
+          "key": 1,
+          "value": "启用"
+        },
+        {
+          "key": 0,
+          "value": "停用"
+        }
+      ]
+    }
+  },
+  "formData": {
+    "fd": {}
+  }
+}

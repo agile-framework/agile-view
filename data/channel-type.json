@@ -1,0 +1,180 @@
+﻿{
+  "result" : {
+    "header" : {
+      "appName" : "commodity-passport-01",
+      "errorCode" : "00000",
+      "errorMsg" : "服务执行成功！",
+      "success" : true,
+      "url" : "https://134.78.9.67:13443/passport/login?deal-type=getsession&mt=1&res=json",
+      "referer" : null
+    },
+    "dataSet" : {
+      "channelType" : [
+        {
+          "id" : "1040",
+          "name" : "社会-公众渠道",
+          "pId":null,
+          "children":[{
+            "id" : "2010100",
+            "name" : "合作营业厅",
+            "pId":1040,
+            "children":[]
+          },{
+            "id" : "2010200",
+            "name" : "专营店/专区",
+            "pId":1040,
+            "children":[]
+          },{
+            "id" : "2010300",
+            "name" : "代理点",
+            "pId":1040,
+            "children":[]
+          },{
+            "id" : "2020100",
+            "name" : "公众客户社会直销渠道",
+            "pId":1040,
+            "children":[]
+          },{
+            "id" : "2040100",
+            "name" : "全国级连锁渠道",
+            "pId":1040,
+            "children":[]
+          },{
+            "id" : "2040200",
+            "name" : "省或区域级连锁渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "2040300",
+            "name" : "地市级连锁渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "2040400",
+            "name" : "非连锁渠道",
+            "pId":null,
+            "children":[]
+          }]
+        },{
+          "id" : "1060",
+          "name" : "社会-电子渠道",
+          "pId":null,
+          "children":[{
+            "id" : "2030100",
+            "name" : "互联网社会渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "2030200",
+            "name" : "电话销售社会渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "2030300",
+            "name" : "其他电子社会渠道",
+            "pId":null,
+            "children":[]
+          }]
+        },{
+          "id" : "1050",
+          "name" : "社会-集客渠道",
+          "pId":null,
+          "children":[{
+            "id" : "2020200",
+            "name" : "集团客户社会直销渠道",
+            "pId":null,
+            "children":[]
+          }]
+        },{
+          "id" : "1020",
+          "name" : "自有-集客渠道",
+          "pId":null,
+          "children":[{
+            "id" : "1010500",
+            "name" : "集团客户开户点",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1020200",
+            "name" : "集团直销渠道",
+            "pId":null,
+            "children":[]
+          }]
+        },{
+          "id" : "1010",
+          "name" : "自有-公众渠道",
+          "pId":null,
+          "children":[{
+            "id" : "1010100",
+            "name" : "沃品牌店",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1010200",
+            "name" : "旗舰营业厅",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1010300",
+            "name" : "标准营业厅",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1010400",
+            "name" : "小型营业厅",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1020300",
+            "name" : "其他销售渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1010600",
+            "name" : "其他实体渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1020100",
+            "name" : "公众直销渠道",
+            "pId":null,
+            "children":[]
+          }]
+        },{
+          "id" : "1030",
+          "name" : "自有-电子渠道",
+          "pId":null,
+          "children":[{
+            "id" : "1030100",
+            "name" : "网上营业厅",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1030200",
+            "name" : "电话渠道",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1030300",
+            "name" : "手机营业厅",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1030400",
+            "name" : "自助终端",
+            "pId":null,
+            "children":[]
+          },{
+            "id" : "1030500",
+            "name" : "短信营业厅",
+            "pId":null,
+            "children":[]
+          }]
+        }
+      ]
+    }
+  },
+  "formData" : {
+    "fd" : { }
+  }
+}

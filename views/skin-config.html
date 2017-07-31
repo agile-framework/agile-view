@@ -1,0 +1,114 @@
+<div class="theme-config" ng-app="agile-view">
+    <div class="theme-config-box" ng-controller="configCtrl as config">
+        <div class="spin-icon" ng-click="config.spinIcon()">
+            <i class="fa fa-cogs fa-spin"></i>
+        </div>
+        <div class="skin-setttings">
+            <div class="title">配置面板</div>
+            <div class="setings-item">
+                    <span>
+                        折叠菜单
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="collapsemenu" ng-click="config.collapsemenu(true)">
+                        <label class="onoffswitch-label" for="collapsemenu">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        固定侧边栏
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixedsidebar" class="onoffswitch-checkbox" id="fixedsidebar" ng-click="config.fixedsidebar(true)">
+                        <label class="onoffswitch-label" for="fixedsidebar">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        顶部导航栏
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixednavbar" class="onoffswitch-checkbox" id="fixednavbar" ng-click="config.fixednavbar(true)">
+                        <label class="onoffswitch-label" for="fixednavbar">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        居中布局
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="boxedlayout" class="onoffswitch-checkbox" id="boxedlayout" ng-click="config.boxedlayout(true)">
+                        <label class="onoffswitch-label" for="boxedlayout">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="setings-item">
+                    <span>
+                        固定页脚
+                    </span>
+
+                <div class="switch">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="fixedfooter" class="onoffswitch-checkbox" id="fixedfooter" ng-click="config.fixedfooter(true)">
+                        <label class="onoffswitch-label" for="fixedfooter">
+                            <span class="onoffswitch-inner"></span>
+                            <span class="onoffswitch-switch"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title">
+                <span class="skin-name ">
+                         <a class="s-skin-2" ng-click="config.skin(2)">
+                             无色
+                         </a>
+                    </span>
+            </div>
+            <div class="setings-item default-skin">
+                    <span class="skin-name ">
+                         <a class="s-skin-0" ng-click="config.skin(0)">
+                             深蓝
+                         </a>
+                    </span>
+            </div>
+            <div class="setings-item blue-skin">
+                    <span class="skin-name ">
+                        <a  class="s-skin-1" ng-click="config.skin(1)">
+                            天蓝
+                        </a>
+                    </span>
+            </div>
+            <div class="setings-item yellow-skin">
+                    <span class="skin-name ">
+                        <a  class="s-skin-3" ng-click="config.skin(3)">
+                            黄紫
+                        </a>
+                    </span>
+            </div>
+        </div>
+    </div>
+</div>

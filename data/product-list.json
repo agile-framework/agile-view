@@ -1,0 +1,253 @@
+﻿{
+  "result": {
+    "header": {
+      "appName": "commodity-passport-01",
+      "errorCode": "00000",
+      "errorMsg": "服务执行成功！",
+      "success": true,
+      "url": "https://134.78.9.67:13443/passport/login?deal-type=getsession&mt=1&res=json",
+      "referer": null
+    },
+    "dataSet": {
+      "draw": 1,
+      "recordsTotal": 57,
+      "recordsFiltered": 57,
+      "TMLimitTree": [
+        {
+          "id": 184,
+          "icon": "fa-leaf",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367941000,
+          "name": "产品管理",
+          "updateStaffId": "system",
+          "state": "product",
+          "pos": 1
+        },
+        {
+          "id": 186,
+          "icon": "fa-pagelines",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367986000,
+          "name": "商品管理",
+          "updateStaffId": "system",
+          "state": "commodity",
+          "pos": 2
+        },
+        {
+          "id": 188,
+          "icon": "fa-tags",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368335000,
+          "name": "类目管理",
+          "updateStaffId": "system",
+          "state": "category",
+          "pos": 5
+        },
+        {
+          "id": 190,
+          "icon": "fa-gift",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "活动管理",
+          "updateStaffId": "system",
+          "state": "promotion",
+          "pos": 3
+        },
+        {
+          "id": 191,
+          "icon": "fa-stack-overflow",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "批量业务管理",
+          "updateStaffId": "system",
+          "state": "batch",
+          "pos": 9
+        },
+        {
+          "id": 196,
+          "icon": "fa-gears",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368476000,
+          "name": "系统管理",
+          "updateStaffId": "system",
+          "state": "system",
+          "pos": 7
+        },
+        {
+          "id": 197,
+          "icon": "fa-leaf",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367941000,
+          "name": "产品管理",
+          "updateStaffId": "system",
+          "state": "product",
+          "pos": 1
+        },
+        {
+          "id": 197,
+          "icon": "fa-pagelines",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367986000,
+          "name": "商品管理",
+          "updateStaffId": "system",
+          "state": "commodity",
+          "pos": 2
+        },
+        {
+          "id": 198,
+          "icon": "fa-tags",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368335000,
+          "name": "类目管理",
+          "updateStaffId": "system",
+          "state": "category",
+          "pos": 5
+        },
+        {
+          "id": 199,
+          "icon": "fa-gift",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "活动管理",
+          "updateStaffId": "system",
+          "state": "promotion",
+          "pos": 3
+        },
+        {
+          "id": 200,
+          "icon": "fa-stack-overflow",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "批量业务管理",
+          "updateStaffId": "system",
+          "state": "batch",
+          "pos": 9
+        },
+        {
+          "id": 201,
+          "icon": "fa-gears",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368476000,
+          "name": "系统管理",
+          "updateStaffId": "system",
+          "state": "system",
+          "pos": 7
+        },
+        {
+          "id": 202,
+          "icon": "fa-gift",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "活动管理",
+          "updateStaffId": "system",
+          "state": "promotion",
+          "pos": 3
+        },
+        {
+          "id": 203,
+          "icon": "fa-stack-overflow",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "批量业务管理",
+          "updateStaffId": "system",
+          "state": "batch",
+          "pos": 9
+        },
+        {
+          "id": 204,
+          "icon": "fa-gears",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368476000,
+          "name": "系统管理",
+          "updateStaffId": "system",
+          "state": "system",
+          "pos": 7
+        },
+        {
+          "id": 205,
+          "icon": "fa-leaf",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367941000,
+          "name": "产品管理",
+          "updateStaffId": "system",
+          "state": "product",
+          "pos": 1
+        },
+        {
+          "id": 206,
+          "icon": "fa-pagelines",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470367986000,
+          "name": "商品管理",
+          "updateStaffId": "system",
+          "state": "commodity",
+          "pos": 2
+        },
+        {
+          "id": 207,
+          "icon": "fa-tags",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368335000,
+          "name": "类目管理",
+          "updateStaffId": "system",
+          "state": "category",
+          "pos": 5
+        },
+        {
+          "id": 208,
+          "icon": "fa-gift",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "活动管理",
+          "updateStaffId": "system",
+          "state": "promotion",
+          "pos": 3
+        },
+        {
+          "id": 209,
+          "icon": "fa-stack-overflow",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368381000,
+          "name": "批量业务管理",
+          "updateStaffId": "system",
+          "state": "batch",
+          "pos": 9
+        },
+        {
+          "id": 210,
+          "icon": "fa-gears",
+          "parentId": 182,
+          "lvlId": 1,
+          "updateTime": 1470368476000,
+          "name": "系统管理",
+          "updateStaffId": "system",
+          "state": "system",
+          "pos": 7
+        }
+      ]
+    }
+  },
+  "formData": {
+    "fd": {}
+  }
+}
